@@ -1,0 +1,52 @@
+@import "../../shared/variables";
+
+#hero-detail {
+  min-height: calc(100vh - 48px);
+  width: 500px;
+  padding: 24px;
+  text-align: center;
+  color: $gray;
+  .title-text {
+    color: $white;
+    text-align: center;
+  }
+  .section-container {
+    margin-bottom: 32px;
+    padding: 16px;
+    border-radius: 5px;
+    flex: 1;
+    flex-direction: column;
+    background-color: $white;
+    color: $black;
+    .section-image {
+      height: 250px;
+      border-radius: 5px;
+      margin-bottom: 16px;
+    }
+    .section-subtitle {
+      margin-bottom: 8px;
+    }
+    .section-text {
+      font-size: 16px;
+      margin-bottom: 16px;
+      color: $gray;
+    }
+    .urls-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .urls-list {
+        display: flex;
+        justify-content: space-around;
+        background: $black;
+        padding: 8px;
+        border-radius: 5px;
+        a {
+          color: $white;
+          text-decoration: none;
+          padding: 0 16px;
+        }
+      }
+    }
+  }
+}

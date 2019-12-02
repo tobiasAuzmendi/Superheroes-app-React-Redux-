@@ -1,0 +1,39 @@
+@import "../../../shared/variables";
+
+.hero-card {
+  max-width: 500px;
+  .card-container {
+    display: flex;
+    margin: 0 16px 32px 16px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: $white;
+    .card-content {
+      flex: 1.5;
+      .hero-name {
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+      .participation {
+        display: flex;
+        margin-bottom: 4px;
+        .participation-flag {
+          height: 24px;
+          width: 24px;
+          margin-left: 6px;
+        }
+      }
+      .participation-description {
+        color: $gray;
+      }
+    }
+    .image-container {
+      flex: 1;
+      .card-image {
+        height: 150px;
+        width: 150px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
